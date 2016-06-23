@@ -14,6 +14,14 @@
 		3877EF911B69C6D600B7C573 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3877EF901B69C6D600B7C573 /* Images.xcassets */; };
 		3877EF941B69C6D700B7C573 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3877EF921B69C6D700B7C573 /* LaunchScreen.xib */; };
 		3877EFA01B69C6D700B7C573 /* WheelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877EF9F1B69C6D700B7C573 /* WheelyTests.swift */; };
+		3877EFAA1B69C6FE00B7C573 /* SMRotatoryWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877EFA91B69C6FE00B7C573 /* SMRotatoryWheel.swift */; };
+		3877EFB01B69C98000B7C573 /* SMCLove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877EFAF1B69C98000B7C573 /* SMCLove.swift */; };
+		3877EFB41B6AC42400B7C573 /* SMRotaryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877EFB31B6AC42400B7C573 /* SMRotaryProtocol.swift */; };
+		3877EFB61B6C38D600B7C573 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 3877EFB51B6C38D600B7C573 /* assets */; };
+		38AA1EDB1B6C559A00C4CCF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AA1EDA1B6C559A00C4CCF0 /* QuartzCore.framework */; };
+		38AA1EDD1B6C55A000C4CCF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AA1EDC1B6C55A000C4CCF0 /* UIKit.framework */; };
+		38AA1EDF1B6C55AE00C4CCF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AA1EDE1B6C55AE00C4CCF0 /* Foundation.framework */; };
+		38AA1EE11B6C55BC00C4CCF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AA1EE01B6C55BC00C4CCF0 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,14 @@
 		3877EF991B69C6D700B7C573 /* WheelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3877EF9E1B69C6D700B7C573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3877EF9F1B69C6D700B7C573 /* WheelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelyTests.swift; sourceTree = "<group>"; };
+		3877EFA91B69C6FE00B7C573 /* SMRotatoryWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMRotatoryWheel.swift; path = ../SMRotatoryWheel.swift; sourceTree = "<group>"; };
+		3877EFAF1B69C98000B7C573 /* SMCLove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCLove.swift; sourceTree = "<group>"; };
+		3877EFB31B6AC42400B7C573 /* SMRotaryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMRotaryProtocol.swift; sourceTree = "<group>"; };
+		3877EFB51B6C38D600B7C573 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		38AA1EDA1B6C559A00C4CCF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		38AA1EDC1B6C55A000C4CCF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38AA1EDE1B6C55AE00C4CCF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38AA1EE01B6C55BC00C4CCF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38AA1EE11B6C55BC00C4CCF0 /* CoreGraphics.framework in Frameworks */,
+				38AA1EDF1B6C55AE00C4CCF0 /* Foundation.framework in Frameworks */,
+				38AA1EDD1B6C55A000C4CCF0 /* UIKit.framework in Frameworks */,
+				38AA1EDB1B6C559A00C4CCF0 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,8 +99,12 @@
 		3877EF831B69C6D600B7C573 /* Wheely */ = {
 			isa = PBXGroup;
 			children = (
+				3877EFB51B6C38D600B7C573 /* assets */,
 				3877EF861B69C6D600B7C573 /* AppDelegate.swift */,
+				3877EFA91B69C6FE00B7C573 /* SMRotatoryWheel.swift */,
+				3877EFB31B6AC42400B7C573 /* SMRotaryProtocol.swift */,
 				3877EF8B1B69C6D600B7C573 /* ViewController.swift */,
+				3877EFAF1B69C98000B7C573 /* SMCLove.swift */,
 				3877EF8D1B69C6D600B7C573 /* Main.storyboard */,
 				3877EF901B69C6D600B7C573 /* Images.xcassets */,
 				3877EF921B69C6D700B7C573 /* LaunchScreen.xib */,
@@ -93,6 +117,10 @@
 		3877EF841B69C6D600B7C573 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38AA1EE01B6C55BC00C4CCF0 /* CoreGraphics.framework */,
+				38AA1EDE1B6C55AE00C4CCF0 /* Foundation.framework */,
+				38AA1EDC1B6C55A000C4CCF0 /* UIKit.framework */,
+				38AA1EDA1B6C559A00C4CCF0 /* QuartzCore.framework */,
 				3877EF851B69C6D600B7C573 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -159,6 +187,7 @@
 		3877EF791B69C6D600B7C573 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = abhi;
 				TargetAttributes = {
@@ -196,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3877EF8F1B69C6D600B7C573 /* Main.storyboard in Resources */,
+				3877EFB61B6C38D600B7C573 /* assets in Resources */,
 				3877EF941B69C6D700B7C573 /* LaunchScreen.xib in Resources */,
 				3877EF911B69C6D600B7C573 /* Images.xcassets in Resources */,
 			);
@@ -215,8 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3877EFB01B69C98000B7C573 /* SMCLove.swift in Sources */,
 				3877EF8C1B69C6D600B7C573 /* ViewController.swift in Sources */,
+				3877EFAA1B69C6FE00B7C573 /* SMRotatoryWheel.swift in Sources */,
 				3877EF871B69C6D600B7C573 /* AppDelegate.swift in Sources */,
+				3877EFB41B6AC42400B7C573 /* SMRotaryProtocol.swift in Sources */,
 				3877EF8A1B69C6D600B7C573 /* Wheely.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +448,7 @@
 				3877EFA51B69C6D700B7C573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3877EFA61B69C6D700B7C573 /* Build configuration list for PBXNativeTarget "WheelyTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +457,7 @@
 				3877EFA81B69C6D700B7C573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
